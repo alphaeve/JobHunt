@@ -89,21 +89,21 @@ const Footer: React.FC = () => {
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 text-blue-600 dark:text-blue-400 mr-2 mt-0.5" />
                 <span className="text-gray-600 dark:text-gray-400">
-                  123 Job Street, San Francisco, CA 94107
+                  Mumbai
                 </span>
               </li>
-              <li className="flex items-center">
+              {/* <li className="flex items-center">
                 <Phone className="h-5 w-5 text-blue-600 dark:text-blue-400 mr-2" />
                 <span className="text-gray-600 dark:text-gray-400">
                   (123) 456-7890
                 </span>
-              </li>
-              <li className="flex items-center">
+              // </li> */}
+              {/* <li className="flex items-center">
                 <Mail className="h-5 w-5 text-blue-600 dark:text-blue-400 mr-2" />
                 <span className="text-gray-600 dark:text-gray-400">
                   info@jobhunt.com
                 </span>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
