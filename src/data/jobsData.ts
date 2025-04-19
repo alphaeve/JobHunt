@@ -11,149 +11,230 @@ export interface Job {
   logo: string;
 }
 
-export const jobs: Job[] = [
+export const jobs = [
   {
     id: '1',
-    title: 'Chemical Engineer',
-    company: 'Reliance Industries',
-    location: 'Mumbai, Maharashtra',
+    title: 'Call Center / BPO Executive',
+    company: 'Various Companies',
+    location: 'Mumbai, India',
     type: 'Full-time',
-    salary: '₹6,00,000 - ₹9,00,000 PA',
-    description: 'Leading chemical manufacturer seeks experienced Chemical Engineer for process optimization and plant operations.',
+    salary: '₹22,482 – ₹26,489 PM',
+    description: 'Handling inbound calls, customer service, and solving client queries in various industries.',
     requirements: [
-      'B.Tech/B.E. in Chemical Engineering',
-      '2-5 years experience in chemical plant operations',
-      'Knowledge of process safety management',
-      'Strong analytical and problem-solving skills',
-      'Experience with HAZOP studies'
+      'Good communication skills',
+      'Basic knowledge of MS Office',
+      'Customer service experience is a plus'
     ],
-    postedDate: '2 days ago',
-    logo: 'https://images.pexels.com/photos/2760243/pexels-photo-2760243.jpeg'
+    postedDate: '2 days ago'
   },
   {
     id: '2',
-    title: 'Electrical Engineer',
-    company: 'Larsen & Toubro',
-    location: 'Bangalore, Karnataka',
+    title: 'Receptionist / Front Desk Assistant',
+    company: 'Various Companies',
+    location: 'Delhi, India',
     type: 'Full-time',
-    salary: '₹5,50,000 - ₹8,50,000 PA',
-    description: 'L&T is looking for Electrical Engineers to join our power distribution projects team.',
+    salary: '₹20,675 – ₹24,003 PM',
+    description: 'Handling front desk operations, managing office schedules, and customer greetings.',
     requirements: [
-      'B.Tech/B.E. in Electrical Engineering',
-      '3+ years experience in power systems',
-      'Knowledge of electrical safety standards',
-      'Experience with AutoCAD Electrical',
-      'Strong project management skills'
+      'Good interpersonal skills',
+      'Basic computer skills',
+      'Prior experience in a similar role'
     ],
-    postedDate: '1 week ago',
-    logo: 'https://images.pexels.com/photos/2467558/pexels-photo-2467558.jpeg'
+    postedDate: '3 days ago'
   },
   {
     id: '3',
-    title: 'Mechanical Engineer',
-    company: 'Tata Motors',
-    location: 'Pune, Maharashtra',
+    title: 'Sales Executive / Telecaller',
+    company: 'Various Companies',
+    location: 'Bangalore, India',
     type: 'Full-time',
-    salary: '₹5,00,000 - ₹8,00,000 PA',
-    description: 'Join our automotive design team to work on next-generation vehicle development projects.',
+    salary: '₹19,756 – ₹29,905 PM',
+    description: 'Selling products or services over the phone or in person, generating leads, and closing sales.',
     requirements: [
-      'B.Tech/B.E. in Mechanical Engineering',
-      'Experience with CAD/CAM software',
-      'Knowledge of automotive systems',
-      'Good understanding of manufacturing processes',
-      'Team player with excellent communication skills'
+      'Good communication skills',
+      'Sales experience is preferred',
+      'Ability to handle rejection'
     ],
-    postedDate: '3 days ago',
-    logo: 'https://images.pexels.com/photos/3862130/pexels-photo-3862130.jpeg'
+    postedDate: '4 days ago'
   },
   {
     id: '4',
-    title: 'Production Supervisor',
-    company: 'Hindustan Unilever',
-    location: 'Chennai, Tamil Nadu',
+    title: 'Courier Boy / Delivery Agent',
+    company: 'Swiggy, Zomato, Amazon, etc.',
+    location: 'Chennai, India',
     type: 'Full-time',
-    salary: '₹4,50,000 - ₹7,00,000 PA',
-    description: 'Looking for a Production Supervisor to oversee manufacturing operations and team management.',
+    salary: '₹22,093 – ₹28,649 PM',
+    description: 'Delivering packages or food items within the city, ensuring timely and safe delivery.',
     requirements: [
-      'Diploma in Mechanical/Production Engineering',
-      '2+ years supervisory experience',
-      'Knowledge of lean manufacturing',
-      'Strong leadership qualities',
-      'Experience with ERP systems'
+      'Good local knowledge',
+      'Valid driving license',
+      'Familiarity with delivery apps'
     ],
-    postedDate: '5 days ago',
-    logo: 'https://images.pexels.com/photos/3862132/pexels-photo-3862132.jpeg'
+    postedDate: '5 days ago'
   },
   {
     id: '5',
-    title: 'Quality Control Engineer',
-    company: 'Maruti Suzuki',
-    location: 'Gurugram, Haryana',
+    title: 'Bank Mitra (Agent)',
+    company: 'Various Banks',
+    location: 'Rural Areas, India',
     type: 'Full-time',
-    salary: '₹4,00,000 - ₹6,50,000 PA',
-    description: 'Seeking Quality Control Engineer to maintain product quality standards and implement quality systems.',
+    salary: '₹21,187 – ₹25,785 PM',
+    description: 'Acting as a liaison between the bank and rural customers, handling deposits and withdrawals.',
     requirements: [
-      'Diploma/B.Tech in Engineering',
-      'Knowledge of ISO 9001 standards',
-      'Experience with quality control tools',
-      'Strong analytical skills',
-      'Good communication abilities'
+      'Basic knowledge of banking',
+      'Ability to work in rural areas',
+      'Communication skills'
     ],
-    postedDate: '1 week ago',
-    logo: 'https://images.pexels.com/photos/3862135/pexels-photo-3862135.jpeg'
+    postedDate: '6 days ago'
   },
   {
     id: '6',
-    title: 'Maintenance Engineer',
-    company: 'Asian Paints',
-    location: 'Kolkata, West Bengal',
+    title: 'Data Entry Operator',
+    company: 'Various Companies',
+    location: 'Hyderabad, India',
     type: 'Full-time',
-    salary: '₹4,50,000 - ₹7,00,000 PA',
-    description: 'Required Maintenance Engineer for managing plant equipment maintenance and repair activities.',
+    salary: '₹21,206 – ₹27,859 PM',
+    description: 'Entering and managing data, performing clerical duties in an office setting.',
     requirements: [
-      'Diploma in Mechanical/Electrical Engineering',
-      '3+ years maintenance experience',
-      'Knowledge of preventive maintenance',
-      'Troubleshooting skills',
-      'Available for shift work'
+      'Typing speed of 40+ WPM',
+      'Knowledge of MS Office',
+      'Attention to detail'
     ],
-    postedDate: '4 days ago',
-    logo: 'https://images.pexels.com/photos/3862138/pexels-photo-3862138.jpeg'
+    postedDate: '7 days ago'
   },
   {
     id: '7',
-    title: 'Process Engineer',
-    company: 'Dr. Reddy\'s Laboratories',
-    location: 'Hyderabad, Telangana',
+    title: 'Retail Store Staff',
+    company: 'D-Mart, Reliance Smart, etc.',
+    location: 'Pune, India',
     type: 'Full-time',
-    salary: '₹5,50,000 - ₹8,50,000 PA',
-    description: 'Looking for Process Engineers to optimize pharmaceutical manufacturing processes.',
+    salary: '₹19,124 – ₹26,161 PM',
+    description: 'Assisting customers, restocking shelves, and handling checkout processes.',
     requirements: [
-      'B.Tech in Chemical/Pharmaceutical Engineering',
-      'Knowledge of GMP guidelines',
-      'Experience in process optimization',
-      'Analytical mindset',
-      'Documentation skills'
+      'Customer service experience',
+      'Good communication skills',
+      'Willingness to work in shifts'
     ],
-    postedDate: '2 days ago',
-    logo: 'https://images.pexels.com/photos/3862140/pexels-photo-3862140.jpeg'
+    postedDate: '8 days ago'
   },
   {
     id: '8',
-    title: 'Safety Engineer',
-    company: 'ONGC',
-    location: 'Dehradun, Uttarakhand',
+    title: 'Tally / Accounting Assistant',
+    company: 'Various Companies',
+    location: 'Kolkata, India',
     type: 'Full-time',
-    salary: '₹6,00,000 - ₹9,00,000 PA',
-    description: 'Required Safety Engineer to implement and maintain workplace safety protocols.',
+    salary: '₹18,166 – ₹24,110 PM',
+    description: 'Handling accounts, managing bookkeeping entries, and generating financial reports.',
     requirements: [
-      'B.Tech with Diploma in Industrial Safety',
-      'NEBOSH/IOSH certification preferred',
-      'Knowledge of safety regulations',
-      'Experience in risk assessment',
-      'Emergency response planning'
+      'Tally certification',
+      'Basic accounting knowledge',
+      'Attention to detail'
     ],
-    postedDate: '1 week ago',
-    logo: 'https://images.pexels.com/photos/3862142/pexels-photo-3862142.jpeg'
+    postedDate: '9 days ago'
+  },
+  {
+    id: '9',
+    title: 'Electrician',
+    company: 'Various Companies',
+    location: 'Ahmedabad, India',
+    type: 'Full-time',
+    salary: '₹24,264 – ₹26,304 PM',
+    description: 'Installing and repairing electrical systems in homes, offices, and industrial settings.',
+    requirements: [
+      'Electrician certification',
+      'Knowledge of electrical wiring and systems',
+      'Hands-on experience in electrical repairs'
+    ],
+    postedDate: '10 days ago'
+  },
+  {
+    id: '10',
+    title: 'Plumber',
+    company: 'Various Companies',
+    location: 'Lucknow, India',
+    type: 'Full-time',
+    salary: '₹20,124 – ₹22,654 PM',
+    description: 'Repairing, installing, and maintaining plumbing systems in residential and commercial buildings.',
+    requirements: [
+      'Plumbing certification',
+      'Experience with plumbing systems',
+      'Good problem-solving skills'
+    ],
+    postedDate: '11 days ago'
+  },
+  {
+    id: '11',
+    title: 'Welder / Fitter / Turner',
+    company: 'Various Companies',
+    location: 'Surat, India',
+    type: 'Full-time',
+    salary: '₹19,161 – ₹25,230 PM',
+    description: 'Welding and fitting parts for machinery and structures.',
+    requirements: [
+      'Welding certification',
+      'Experience with welding tools',
+      'Ability to read blueprints'
+    ],
+    postedDate: '12 days ago'
+  },
+  {
+    id: '12',
+    title: 'Mechanic (2W/4W)',
+    company: 'Various Companies',
+    location: 'Jaipur, India',
+    type: 'Full-time',
+    salary: '₹23,119 – ₹24,447 PM',
+    description: 'Repairing and servicing two-wheelers and four-wheelers.',
+    requirements: [
+      'Mechanic certification',
+      'Experience in vehicle repair',
+      'Knowledge of automotive systems'
+    ],
+    postedDate: '13 days ago'
+  },
+  {
+    id: '13',
+    title: 'Housekeeper / Maid',
+    company: 'Various Agencies',
+    location: 'Varanasi, India',
+    type: 'Full-time',
+    salary: '₹15,000 – ₹18,000 PM',
+    description: 'Cleaning, maintaining household items, and performing other household tasks.',
+    requirements: [
+      'Experience in housekeeping',
+      'Attention to cleanliness',
+      'Good communication skills'
+    ],
+    postedDate: '14 days ago'
+  },
+  {
+    id: '14',
+    title: 'Chef / Cook',
+    company: 'Various Hotels & Restaurants',
+    location: 'Goa, India',
+    type: 'Full-time',
+    salary: '₹25,000 – ₹35,000 PM',
+    description: 'Preparing meals and managing kitchen activities in restaurants and hotels.',
+    requirements: [
+      'Experience in cooking and kitchen management',
+      'Knowledge of food safety standards',
+      'Creativity and passion for cooking'
+    ],
+    postedDate: '15 days ago'
+  },
+  {
+    id: '15',
+    title: 'Security Guard',
+    company: 'Various Agencies',
+    location: 'Chandigarh, India',
+    type: 'Full-time',
+    salary: '₹18,000 – ₹22,000 PM',
+    description: 'Protecting people and property, monitoring surveillance systems.',
+    requirements: [
+      'Basic security training',
+      'Physical fitness',
+      'Ability to handle emergency situations'
+    ],
+    postedDate: '16 days ago'
   }
 ];

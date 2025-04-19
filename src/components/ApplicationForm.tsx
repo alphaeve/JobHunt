@@ -5,7 +5,6 @@ import { jobs } from '../data/jobsData';
 import { ref, push } from 'firebase/database';
 import { database } from '../firebase'; 
 
-
 type Qualification = '10th' | '12th' | 'diploma' | 'engineering';
 
 const ApplicationForm: React.FC = () => {

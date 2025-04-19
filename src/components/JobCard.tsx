@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Calendar, MapPin, Briefcase, DollarSign } from 'lucide-react';
+import { Calendar, MapPin, Briefcase } from 'lucide-react';
 import { Job } from '../data/jobsData';
+
 
 interface JobCardProps {
   job: Job;
@@ -38,7 +39,6 @@ const JobCard: React.FC<JobCardProps> = ({ job }) => {
             <span>{job.location}</span>
           </div>
           <div className="flex items-center mr-4">
-            <DollarSign className="h-4 w-4 mr-1" />
             <span>{job.salary}</span>
           </div>
           <div className="flex items-center">
