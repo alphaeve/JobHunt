@@ -1,6 +1,7 @@
 import React from 'react';
 import JobList from '../components/JobList';
 
+
 const JobListPage: React.FC = () => {
   return (
     <div className="container mx-auto px-4 py-12">

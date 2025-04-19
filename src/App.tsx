@@ -8,6 +8,7 @@ import JobListPage from './pages/JobListPage';
 import ApplicationForm from './components/ApplicationForm';
 import ThankYouPage from './pages/ThankYouPage';
 
+
 function App() {
   return (
     <ThemeProvider>
