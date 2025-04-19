@@ -156,7 +156,7 @@ const ApplicationForm: React.FC = () => {
                 className={`w-full px-4 py-2 border ${
                   errors.fullName ? 'border-red-500' : 'border-gray-300 dark:border-gray-600'
                 } rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-white`}
-                placeholder="John Doe"
+                placeholder="Name"
               />
               {errors.fullName && (
                 <p className="mt-1 text-sm text-red-500">{errors.fullName}</p>
@@ -176,7 +176,7 @@ const ApplicationForm: React.FC = () => {
                 className={`w-full px-4 py-2 border ${
                   errors.email ? 'border-red-500' : 'border-gray-300 dark:border-gray-600'
                 } rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-white`}
-                placeholder="john.doe@example.com"
+                placeholder="email@example.com"
               />
               {errors.email && (
                 <p className="mt-1 text-sm text-red-500">{errors.email}</p>
@@ -196,7 +196,7 @@ const ApplicationForm: React.FC = () => {
                 className={`w-full px-4 py-2 border ${
                   errors.phone ? 'border-red-500' : 'border-gray-300 dark:border-gray-600'
                 } rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-white`}
-                placeholder="(123) 456-7890"
+                placeholder=""
               />
               {errors.phone && (
                 <p className="mt-1 text-sm text-red-500">{errors.phone}</p>
@@ -241,7 +241,7 @@ const ApplicationForm: React.FC = () => {
                   className={`w-full px-4 py-2 border ${
                     errors['address.street'] ? 'border-red-500' : 'border-gray-300 dark:border-gray-600'
                   } rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-white`}
-                  placeholder="123 Main St"
+                  placeholder=""
                 />
                 {errors['address.street'] && (
                   <p className="mt-1 text-sm text-red-500">{errors['address.street']}</p>
@@ -261,7 +261,7 @@ const ApplicationForm: React.FC = () => {
                   className={`w-full px-4 py-2 border ${
                     errors['address.city'] ? 'border-red-500' : 'border-gray-300 dark:border-gray-600'
                   } rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-white`}
-                  placeholder="San Francisco"
+                  placeholder=""
                 />
                 {errors['address.city'] && (
                   <p className="mt-1 text-sm text-red-500">{errors['address.city']}</p>
@@ -281,7 +281,7 @@ const ApplicationForm: React.FC = () => {
                   className={`w-full px-4 py-2 border ${
                     errors['address.state'] ? 'border-red-500' : 'border-gray-300 dark:border-gray-600'
                   } rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-white`}
-                  placeholder="CA"
+                  placeholder=""
                 />
                 {errors['address.state'] && (
                   <p className="mt-1 text-sm text-red-500">{errors['address.state']}</p>
