@@ -31,6 +31,7 @@ const Header: React.FC = () => {
             <FileText className="h-4 w-4 mr-1" />
             Apply Now
           </Link>
+          
           <Link 
             to="/about" 
             className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200"
