@@ -7,6 +7,7 @@ import { database } from '../firebase';
 
 type Qualification = '10th' | '12th' | 'diploma' | 'engineering';
 
+
 const ApplicationForm: React.FC = () => {
   const { jobId } = useParams<{ jobId: string }>();
   const navigate = useNavigate();

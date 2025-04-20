@@ -4,6 +4,7 @@ import { Briefcase, Mail, Phone, MapPin } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
+    
     <footer className="bg-gray-100 dark:bg-gray-900 pt-12 pb-8 transition-colors duration-200">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">

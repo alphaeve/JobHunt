@@ -8,6 +8,7 @@ interface JobCardProps {
   job: Job;
 }
 
+
 const JobCard: React.FC<JobCardProps> = ({ job }) => {
   return (
     <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden border border-gray-100 dark:border-gray-700 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
