@@ -7,12 +7,13 @@ import HomePage from './pages/HomePage';
 import JobListPage from './pages/JobListPage';
 import ApplicationForm from './components/ApplicationForm';
 import ThankYouPage from './pages/ThankYouPage';
-
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 function App() {
   return (
     <ThemeProvider>
       <BrowserRouter>
+      <SpeedInsights />
         <div className="flex flex-col min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-200">
           <Header />
           <main className="flex-grow">
