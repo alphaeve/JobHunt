@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
           <div>
             <div className="flex items-center space-x-2 text-blue-600 dark:text-blue-400 mb-4">
               <Briefcase className="h-6 w-6" />
-              <span className="text-xl font-bold">JobHunt</span>
+              <span className="text-xl font-bold">JobSetu</span>
             </div>
             <p className="text-gray-600 dark:text-gray-400 mb-4">
               Connecting talented professionals with their dream careers.
@@ -93,6 +93,12 @@ const Footer: React.FC = () => {
                   Mumbai
                 </span>
               </li>
+              <li className="flex items-start">
+                <MapPin className="h-5 w-5 text-blue-600 dark:text-blue-400 mr-2 mt-0.5" />
+                <span className="text-gray-600 dark:text-gray-400">
+                  Ahemdabad
+                </span>
+              </li>
               {/* <li className="flex items-center">
                 <Phone className="h-5 w-5 text-blue-600 dark:text-blue-400 mr-2" />
                 <span className="text-gray-600 dark:text-gray-400">
@@ -110,7 +116,7 @@ const Footer: React.FC = () => {
         </div>
         
         <div className="border-t border-gray-200 dark:border-gray-800 mt-12 pt-8 text-center text-gray-500 dark:text-gray-400">
-          <p>© {new Date().getFullYear()} JobHunt. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} JobSetu. All rights reserved.</p>
         </div>
       </div>
     </footer>

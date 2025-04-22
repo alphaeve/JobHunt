@@ -55,7 +55,7 @@ const About: React.FC = () => {
               Our Mission
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-400 mb-6">
-              At [Your Company Name], we aim to connect job seekers with employers in Gujarat, providing a seamless platform for finding great opportunities.
+              At JobSetu, we aim to connect job seekers with employers in Gujarat, providing a seamless platform for finding great opportunities.
             </p>
             <p className="text-lg text-gray-600 dark:text-gray-400 mb-6">
               Whether you are looking for a career in sales, tech, customer service, or more, we are here to help you take the next step in your career journey.
@@ -154,7 +154,7 @@ const About: React.FC = () => {
       <footer className="bg-gray-800 py-6">
         <div className="container mx-auto px-4 text-center">
           <p className="text-white">
-            &copy; {new Date().getFullYear()} JobHunt. All Rights Reserved.
+            &copy; {new Date().getFullYear()} JobSetu. All Rights Reserved.
           </p>
         </div>
       </footer>

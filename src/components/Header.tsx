@@ -14,7 +14,7 @@ const Header: React.FC = () => {
           className="flex items-center space-x-2 text-blue-600 dark:text-blue-400 transition-colors duration-200"
         >
           <Briefcase className="h-6 w-6" />
-          <span className="text-xl font-bold">JobHunt</span>
+          <span className="text-xl font-bold">JobSetu</span>
         </Link>
         
         <div className="flex items-center space-x-4">
