@@ -6,6 +6,7 @@ import HomePage from './pages/HomePage';
 import JobListPage from './pages/JobListPage';
 import ApplicationForm from './components/ApplicationForm';
 import ThankYouPage from './pages/ThankYouPage';
+import About from './components/About';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
               <Route path="/jobs" element={<JobListPage />} />
               <Route path="/apply/:jobId" element={<ApplicationForm />} />
               <Route path="/thank-you" element={<ThankYouPage />} />
+              <Route path="/about" element={<About />} />
             </Routes>
           </main>
           <Footer />

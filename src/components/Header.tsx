@@ -19,6 +19,12 @@ const Header: React.FC = () => {
         
         <div className="flex items-center space-x-4">
           <Link 
+            to="/" 
+            className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200"
+          >
+            Home
+          </Link>
+          <Link 
             to="/jobs" 
             className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200"
           >
@@ -29,11 +35,11 @@ const Header: React.FC = () => {
             className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200 flex items-center"
           >
             <FileText className="h-4 w-4 mr-1" />
-            Apply Now
+            Apply
           </Link>
           
           <Link 
-            to="/About" 
+            to="/About"
             className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200"
           >
             About

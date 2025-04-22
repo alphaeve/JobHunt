@@ -15,6 +15,19 @@ const HomePage: React.FC = () => {
       
       <section className="bg-gray-50 dark:bg-gray-900 py-12">
         <div className="container mx-auto px-4">
+          {/* 2500+ Jobs Provided Section */}
+          <section className="bg-gradient-to-r from-blue-600 to-indigo-700 py-10">
+            <div className="container mx-auto px-4 text-center">
+              <h2 className="text-3xl md:text-4xl font-extrabold text-white mb-2 animate-pulse">
+                2500+ Jobs Provided
+              </h2>
+              <p className="text-white text-lg md:text-xl opacity-90">
+                Empowering thousands of job seekers with genuine opportunities across Gujarat
+              </p>
+            </div>
+          </section>
+
+          {/* Why Job Seekers Love Us Section */}
           <div className="max-w-3xl mx-auto text-center mb-10">
             <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
               Why Job Seekers Love Us

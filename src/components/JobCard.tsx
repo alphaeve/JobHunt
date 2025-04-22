@@ -40,6 +40,10 @@ const JobCard: React.FC<JobCardProps> = ({ job }) => {
             <span>{job.location}</span>
           </div>
           <div className="flex items-center mr-4">
+  <Briefcase className="h-4 w-4 mr-1" />
+  <span>{job.vacancies} Vacanc{job.vacancies > 1 ? 'ies' : 'y'}</span>
+</div>
+          <div className="flex items-center mr-4">
             <span>{job.salary}</span>
           </div>
           <div className="flex items-center">
