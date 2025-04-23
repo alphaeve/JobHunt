@@ -25,13 +25,13 @@ const Header: React.FC = () => {
           >
             Jobs
           </Link>
-          <Link 
+          {/* <Link 
             to={`/apply/${1}`} 
             className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200 flex items-center"
           >
             <FileText className="h-4 w-4 mr-1" />
             Apply
-          </Link>
+          </Link> */}
           
           <Link 
             to="/About"

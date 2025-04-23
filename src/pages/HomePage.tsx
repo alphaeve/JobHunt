@@ -36,7 +36,10 @@ const HomePage: React.FC = () => {
                 <p className="text-gray-600 dark:text-gray-400">Location: Ahmedabad</p>
                 <p className="text-gray-600 dark:text-gray-400">Salary: ₹18,000/month</p>
                 <p className="text-gray-600 dark:text-gray-400">HospitalCare Pvt. Ltd.</p>
-                <button className="mt-4 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded">
+                <button 
+                  onClick={handleSearch} 
+                  className="mt-4 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded"
+                >
                   View Job
                 </button>
               </div>
