@@ -7,6 +7,11 @@ import JobListPage from './pages/JobListPage';
 import ApplicationForm from './components/ApplicationForm';
 import ThankYouPage from './pages/ThankYouPage';
 import About from './components/About';
+import Contact from './pages/Contact';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import Terms from './pages/Terms';
+
+
 
 function App() {
   return (
@@ -21,6 +26,9 @@ function App() {
               <Route path="/apply/:jobId" element={<ApplicationForm />} />
               <Route path="/thank-you" element={<ThankYouPage />} />
               <Route path="/about" element={<About />} />
+              <Route path="/Contact" element={<Contact />} />
+              <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+              <Route path="/terms" element={<Terms />} />
             </Routes>
           </main>
           <Footer />

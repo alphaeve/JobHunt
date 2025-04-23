@@ -18,12 +18,7 @@ const Header: React.FC = () => {
         </Link>
         
         <div className="flex items-center space-x-4">
-          <Link 
-            to="/" 
-            className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200"
-          >
-            Home
-          </Link>
+          {/*  */}
           <Link 
             to="/jobs" 
             className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200"
@@ -43,6 +38,30 @@ const Header: React.FC = () => {
             className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200"
           >
             About
+          </Link>
+          <Link 
+            to="/Contact" 
+            className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200"
+          >
+            Contact
+          </Link>
+          <Link 
+            to="/privacy-policy" 
+            className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200"
+          >
+            Privacy Policy
+          </Link>
+          <Link 
+            to="/terms" 
+            className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200"
+          >
+            Terms
+          </Link>
+          <Link 
+            to="/privacy-policy" 
+            className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200"
+          >
+            Privacy Policy
           </Link>
           <button
             onClick={toggleDarkMode}
