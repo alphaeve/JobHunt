@@ -8,64 +8,54 @@ const Header: React.FC = () => {
 
   return (
     <header className="sticky top-0 z-50 bg-white dark:bg-gray-900 shadow-sm transition-colors duration-200">
-      <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-        <Link 
-          to="/" 
-          className="flex items-center space-x-2 text-blue-600 dark:text-blue-400 transition-colors duration-200"
+      <div className="container mx-auto px-6 py-4 flex items-center justify-between">
+        <Link
+          to="/"
+          className="flex items-center space-x-2 text-blue-600 dark:text-blue-400 transition-colors duration-200 hover:text-blue-700"
         >
           <Briefcase className="h-6 w-6" />
-          <span className="text-xl font-bold">JobSetu</span>
+          <span className="text-2xl font-semibold">JobSetu</span>
         </Link>
-        
-        <div className="flex items-center space-x-4">
-          {/*  */}
-          <Link 
-            to="/jobs" 
-            className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200"
+
+        <div className="flex items-center space-x-6">
+          <Link
+            to="/jobs"
+            className="px-4 py-2 rounded-full text-gray-700 dark:text-gray-200 hover:bg-blue-600 hover:text-white dark:hover:bg-blue-400 transition-colors duration-300"
           >
             Jobs
           </Link>
-          {/* <Link 
-            to={`/apply/${1}`} 
-            className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200 flex items-center"
-          >
-            <FileText className="h-4 w-4 mr-1" />
-            Apply
-          </Link> */}
-          
-          <Link 
+
+          <Link
             to="/About"
-            className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200"
+            className="px-4 py-2 rounded-full text-gray-700 dark:text-gray-200 hover:bg-blue-600 hover:text-white dark:hover:bg-blue-400 transition-colors duration-300"
           >
             About
           </Link>
-          <Link 
-            to="/Contact" 
-            className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200"
+
+          <Link
+            to="/Contact"
+            className="px-4 py-2 rounded-full text-gray-700 dark:text-gray-200 hover:bg-blue-600 hover:text-white dark:hover:bg-blue-400 transition-colors duration-300"
           >
             Contact
           </Link>
-          <Link 
-            to="/privacy-policy" 
-            className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200"
+
+          <Link
+            to="/privacy-policy"
+            className="px-4 py-2 rounded-full text-gray-700 dark:text-gray-200 hover:bg-blue-600 hover:text-white dark:hover:bg-blue-400 transition-colors duration-300"
           >
             Privacy Policy
           </Link>
-          <Link 
-            to="/terms" 
-            className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200"
+
+          <Link
+            to="/terms"
+            className="px-4 py-2 rounded-full text-gray-700 dark:text-gray-200 hover:bg-blue-600 hover:text-white dark:hover:bg-blue-400 transition-colors duration-300"
           >
             Terms
           </Link>
-          <Link 
-            to="/privacy-policy" 
-            className="text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200"
-          >
-            Privacy Policy
-          </Link>
+
           <button
             onClick={toggleDarkMode}
-            className="p-2 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-700 transition-all duration-200"
+            className="p-3 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-700 transition-all duration-300"
             aria-label={darkMode ? 'Switch to light mode' : 'Switch to dark mode'}
           >
             {darkMode ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
